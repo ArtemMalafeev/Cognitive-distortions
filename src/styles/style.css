@@ -29,7 +29,6 @@
   --color-dark-translucent: #908d8b;
   --color-brown: #b09a81;
   --color-blue: #1085c5;
-  --color-shadow: #000;
 }
 
 .text-primary {
@@ -231,7 +230,7 @@ h3 {
 
 .video-section__video iframe {
   border: 0;
-  filter: drop-shadow(0 16px 32px var(--color-shadow));
+  filter: drop-shadow(0 16px 32px var(--color-dark));
 }
 
 /* navigation */
@@ -300,6 +299,9 @@ h3 {
 }
 
 .card__description {
+  margin: 0;
+  margin-top: 20px;
+
   color: var(--color-dark);
 }
 
@@ -325,7 +327,7 @@ h3 {
 
   object-fit: cover;
 
-  filter: drop-shadow(0 16px 32px var(--color-shadow));
+  filter: drop-shadow(0 16px 32px var(--color-dark));
 }
 
 .distortion__text {
