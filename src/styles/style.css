@@ -116,7 +116,7 @@ h3 {
 
 .description__text {
   flex-basis: 50%;
-  /* margin: 0px; */
+  margin: 0px;
 }
 
 .description--text-light {
@@ -192,7 +192,7 @@ h3 {
 }
 
 .header__description {
-  margin-top: 185px;
+  margin-top: 201px;
 }
 
 .header__button {
@@ -230,7 +230,7 @@ h3 {
 
 /* navigation */
 .navigation {
-  padding-top: 200px;
+  padding-top: 170px;
 }
 
 .navigation__list {
@@ -348,6 +348,7 @@ h3 {
 
 .distortion__subtitle {
   margin: 0;
+  margin-bottom: 20px;
   padding: 5px 0 5px 10px;
 
   font-size: 14px;
