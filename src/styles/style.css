@@ -1,7 +1,93 @@
-/** CSS STYLE **/
+/* fonts */
+@font-face {
+  font-weight: 400;
+  font-family: "OpenSans";
+  src: url('../assets/fonts/OpenSans-Regular.ttf');
+}
 
-.hello {
-  display: block;
+@font-face {
+  font-weight: 700;
+  font-family: "OpenSans";
+  src: url('../assets/fonts/OpenSans-Bold.ttf');
+}
 
-  color: #fff;
+@font-face {
+  font-weight: 400;
+  font-family: "Neucha";
+  src: url('../assets/fonts/Neucha-Regular.ttf');
+}
+
+/* main */
+:root {
+  --color-white: #ffffff;
+  --color-white-translucent: #d7ccc0;
+  --color-light: #f5f4f0;
+  --color-primary: #fe8a02;
+  --color-primary-hover: #ea7600;
+  --color-primary-dark: #42413c;
+  --color-dark: #2a2626;
+  --color-dark-translucent: #908d8b;
+  --color-brown: #b09a81;
+  --color-blue: #1085c5;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page {
+  font: 16px/1.6em "OpenSans", sans-serif;
+  color: var(--color-dark);
+}
+
+.page__body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+/* container */
+.container {
+  position: relative;
+
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+
+  z-index: 200;
 }
